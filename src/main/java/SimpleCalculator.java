@@ -11,8 +11,8 @@ import java.util.Scanner;
 public class SimpleCalculator {
      public static void main(String[] args){
          Scanner input = new Scanner (System.in);
-         int x = input.nextInt();
-         int y = input.nextInt();
+         long x = input.nextInt();
+         long y = input.nextInt();
         System.out.printf((x )+" + " +(y)+ " = %d%n",x+y);
         System.out.printf((x )+" * " +(y)+ " = %d%n",x*y);
          System.out.printf((x )+" - " +(y)+ " = %d%n",x-y);
